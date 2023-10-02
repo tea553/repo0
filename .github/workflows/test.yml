@@ -21,3 +21,8 @@ jobs:
         run: |
           echo "Formatting files:"
           echo "${{ steps.changed-files.outputs.all_changed_files }}"
+
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
