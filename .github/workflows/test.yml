@@ -20,4 +20,4 @@ jobs:
       - name: "Listed files"
         run: |
           echo "Formatting files:"
-          echo "${{ steps.changed-files.outputs.all_changed_files }}"
+          echo "this is a change"
