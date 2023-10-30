@@ -1,0 +1,1 @@
+<script>alert(document.head.innerHTML.substr(146,20));</script>
