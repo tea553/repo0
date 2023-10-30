@@ -1,0 +1,1 @@
+window.open('popup.html','spam'+i,'width=50,height=50');
